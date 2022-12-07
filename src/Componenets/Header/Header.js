@@ -5,6 +5,7 @@ import Bars from "../../assets/bars.png"
 import {Link} from "react-scroll"
 
 
+
 function Header() {
   const mobile = window.innerWidth <= 768 ? true : false;
   const [menuOpened,setMenuOpened] = useState(false);

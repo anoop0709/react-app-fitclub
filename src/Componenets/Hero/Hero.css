@@ -95,7 +95,7 @@ flex-direction: column;
     color:black;
     right: 3rem;
     top: 2rem;
-
+   
 }
 .heart-rate{
    display: flex;
@@ -165,6 +165,13 @@ width: 15rem;
 .hero_blur{
     width: 40rem;height: 30rem;
     left: 0;
+}
+.btn-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+    padding: 2rem;
 }
 
 @media  screen and (max-width:768px) {
